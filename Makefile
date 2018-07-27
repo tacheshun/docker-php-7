@@ -1,7 +1,7 @@
 build:
-	@docker build -t codereviewvideos/php-7 .
+	@docker build -t tacheshun/php-7 .
 
 push:
-	@docker push codereviewvideos/php-7
+	@docker push tacheshun/php-7
 
 bp: build push
